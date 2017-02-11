@@ -7,7 +7,7 @@ class Receive
 {
     public static void Main()
     {
-        var factory = new ConnectionFactory() { HostName = "localhost" };
+        var factory = new ConnectionFactory() { HostName = "higgsino.physics.ucsb.edu", UserName = "project8", Password = "highs34s" };
         using(var connection = factory.CreateConnection())
         using(var channel = connection.CreateModel())
         {
