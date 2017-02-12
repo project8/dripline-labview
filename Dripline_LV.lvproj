@@ -16,9 +16,8 @@
 		<Item Name="vi" Type="Folder" URL="../vi">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="AMQP_credentials.vi" Type="VI" URL="../vi/AMQP_credentials.vi"/>
-		</Item>
+		<Item Name="returncode.vi" Type="VI" URL="../vi/message/returncode.vi"/>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
