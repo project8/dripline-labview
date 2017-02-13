@@ -16,7 +16,6 @@
 		<Item Name="vi" Type="Folder" URL="../vi">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Example two to one.vi" Type="VI" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/Example two to one.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="89e7d7c5feba84ce" Type="VI" URL="/&lt;vilib&gt;/Distrio/LabbitMQ/89e7d7c5feba84ce"/>
