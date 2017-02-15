@@ -6,12 +6,11 @@ class Send
 {
     public static void Main()
     {
-        Console.WriteLine(" In Main ");
         var factory = new ConnectionFactory() { HostName = "higgsino.physics.ucsb.edu", UserName = "project8", Password = "highs34s" };
         using(var connection = factory.CreateConnection())
         using(var channel = connection.CreateModel())
         {
-            channel.QueueDeclare(queue: "hello",
+            channel.QueueDeclare(queue: "alerts",
                                  durable: false,
                                  exclusive: false,
                                  autoDelete: false,
@@ -20,8 +19,8 @@ class Send
             string message = "Hello World!";
             var body = Encoding.UTF8.GetBytes(message);
 
-            channel.BasicPublish(exchange: "",
-                                 routingKey: "hello",
+            channel.BasicPublish(exchange: "alerts",
+                                 routingKey: "",
                                  basicProperties: null,
                                  body: body);
             Console.WriteLine(" [x] Sent {0}", message);
