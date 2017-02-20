@@ -1,5 +1,5 @@
 # dripline-labview
-
+Labview implementation of [project8/dripline](../../../dripline)
 
 # Requirements
 Windows
