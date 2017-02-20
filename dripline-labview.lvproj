@@ -16,8 +16,6 @@
 		<Item Name="vi" Type="Folder" URL="../vi">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Create connection (SubVI).vi" Type="VI" URL="../vi/communication/Create connection (SubVI).vi"/>
-		<Item Name="Create exchange (SubVI).vi" Type="VI" URL="../vi/communication/Create exchange (SubVI).vi"/>
 		<Item Name="i3-json.lvlib" Type="Library" URL="/&lt;vilib&gt;/LVH/i3 JSON/i3-json.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
