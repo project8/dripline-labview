@@ -12,3 +12,5 @@ Windows
 https://vipm.jki.net/
 
 1. Install LabbitMQ via VI Package Manager
+
+1. Install i3 Json via VI Package Manager
