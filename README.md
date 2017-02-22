@@ -14,3 +14,5 @@ https://vipm.jki.net/
 1. Install LabbitMQ via VI Package Manager
 
 1. Install i3 Json via VI Package Manager
+
+1. (For developper) Copy the icons from the icon folder to the ```My Documents/Labview Data/Icon Templates```
