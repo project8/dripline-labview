@@ -1,3 +1,2 @@
-# - should decide if it is mac or Windows
-# Create a config file accordingly
-# - conpile the .cs files and get the executables
+# - get the commit and version of dripline and save them somewhere in a yaml/json file
+
